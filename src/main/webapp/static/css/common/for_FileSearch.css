@@ -1,0 +1,61 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+        margin-left: 450px;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+#bottom{
+
+    position: absolute; bottom: 350px; 
+}
+
+.img1{
+	margin:30px;
+	width:250px;
+  	height:20px;
+  	float:left;
+	
+}
+
+h3
+{
+	position: absolute; bottom: 650px;
+}
+
+.rwd-table {
+	
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  position: absolute; top: 155px; 
+  
+	  tr {
+	    border-color: lighten(#34495E, 10%);
+	  }
+  
+	  th, td {
+	    margin: .5em 1em;  
+	  }
+	  
+	  td:empty {
+	    width: 70px;
+	  }
+	  
+	  th, td:before {
+	    color: #dd5;
+	  }
+}
